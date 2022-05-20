@@ -33,7 +33,20 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "lodash",
+              "uuid",
+              "@aws-crypto/sha256-js",
+              "url",
+              "buffer",
+              "ulid",
+              "camelcase-keys",
+              "qrcode",
+              "xstate/lib/actions",
+              "style-dictionary/lib/utils/deepExtend"
+
+           ]
           },
           "configurations": {
             "production": {
